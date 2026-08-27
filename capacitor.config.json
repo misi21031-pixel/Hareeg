@@ -1,0 +1,9 @@
+{
+  "appId": "app.hareeg.premium",
+  "appName": "دفتر حريق",
+  "webDir": "www",
+  "backgroundColor": "#FFF8EF",
+  "android": {
+    "backgroundColor": "#FFF8EF"
+  }
+}
