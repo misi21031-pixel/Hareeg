@@ -1,0 +1,59 @@
+{
+  "name": "دفتر حريق",
+  "short_name": "دفتر حريق",
+  "description": "دفتر لإدارة وتسجيل لعبة الورق العربية حريق",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFF8EF",
+  "theme_color": "#FFF8EF",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "عشرة جديدة",
+      "short_name": "عشرة جديدة",
+      "description": "بدء عشرة جديدة مباشرة",
+      "url": "./index.html?action=newten",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "السجل",
+      "short_name": "السجل",
+      "description": "عرض سجل العشرات السابقة",
+      "url": "./index.html?action=history",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
